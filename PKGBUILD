@@ -7,7 +7,7 @@ arch=(x86_64)
 url='https://github.com/CoryBorek/update-grub'
 license='MIT'
 depends('make')
-source=('https://github.com/CoryBorek/')
+source=('https://github.com/CoryBorek/update-grub/archive/refs/heads/main.tar.gz')
 
 
 build() {
