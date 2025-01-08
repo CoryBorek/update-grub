@@ -27,3 +27,4 @@ package() {
 	cd "$pkgname-$pkgver"
 	make install
 }
+sha256sums=('6f4861072e6ea25894906c4ddc058dc70b91e4c819e0aceef5affd323ed97955')
