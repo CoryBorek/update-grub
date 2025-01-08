@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir temp
+cd temp
+wget https://github.com/CoryBorek/update-grub/blob/main/PKGBUILD
+updpkgsums
+makepkg
