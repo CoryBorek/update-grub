@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir temp
 cd temp
-wget https://github.com/CoryBorek/update-grub/blob/main/PKGBUILD
+wget https://raw.githubusercontent.com/CoryBorek/update-grub/refs/heads/main/PKGBUILD
 updpkgsums
 makepkg
