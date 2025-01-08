@@ -1,6 +1,6 @@
 # Maintainter: Cory Borek <agentdid127cb@aol.com>
 pkgname=update-grub
-pkgver=1.0.0
+pkgver=main
 pgrel=1
 pkgdesc='A command like Debian''s update-grub'
 arch=(x86_64)
