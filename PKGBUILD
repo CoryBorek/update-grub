@@ -10,12 +10,12 @@ depends=('make')
 source=("https://github.com/CoryBorek/update-grub/archive/refs/heads/main.tar.gz")
 
 build() {
-	cd "$srcdir/$pkgname-$pkgver"
+	cd "$srcdir/$pkgname-main"
 	make
 }
 
 package() {
-	cd "$srcdir/$pkgname-$pkgver"
-	make install
+	cd "$srcdir/$pkgname-main"
+	sudo make install
 }
 sha256sums=('6f4861072e6ea25894906c4ddc058dc70b91e4c819e0aceef5affd323ed97955')
