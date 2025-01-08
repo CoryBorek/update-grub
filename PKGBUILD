@@ -9,18 +9,9 @@ license=('MIT')
 depends=('make')
 source=("https://github.com/CoryBorek/update-grub/archive/refs/heads/main.tar.gz")
 
-
-prepare() {
-	cd "$pkgname-$pkgver"
-}
-
 build() {
 	cd "$srcdir/$pkgname-$pkgver"
 	make
-}
-
-check() {
-	cd "$pkgsrc/$pkgname-$pkgver"
 }
 
 package() {
